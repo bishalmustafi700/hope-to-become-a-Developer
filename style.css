@@ -3,3 +3,32 @@
     padding: 0px;
     font-family: "Azeret Mono", monospace;
 }
+
+/* NAV BAR */
+
+.nav-br{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 41px;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 28px;
+}
+.resume-download button{
+    padding: 17px 24px ;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #0D1321;
+}
+
+.resume-download button a{
+    text-decoration: none;
+    border: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0D1321;
+}
+
+/* BANNER */
