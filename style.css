@@ -75,3 +75,56 @@
     color: white;
 }
 
+/* body-section */
+
+.challenge-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 230px;
+    width: 950px;
+    background-image: linear-gradient(to left, #FDFDFD , #edecec65);
+    justify-content: space-between;
+    border-radius: 10px;
+    gap: 150px;
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: 0px 0px 6px 0px #888888;
+}
+#second-card-bg{
+    background-image: linear-gradient(to right, #FDFDFD , #edecec65);
+}
+.challenge-card-one h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.challenge-card-one {
+    font-size: 16px;
+    font-weight: 400;
+}
+.challenge-card-one button{
+    padding: 10px 30px ;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid rgba(13, 19, 33, 0.7);
+}
+.challenge-card-one button a{
+    text-decoration: none;
+    border: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0D1321;
+}
+.challenge-card-main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #FAFAFB;
+   height: 1095px;
+   margin: 40px 85px;
+   padding: 30px;
+   border-radius: 10px;
+   color: rgba(13, 19, 33, 0.7);
+   
+}
+
