@@ -120,11 +120,23 @@
    flex-direction: column;
    align-items: center;
    background-color: #FAFAFB;
-   height: 1095px;
+   height: 1200px;
    margin: 40px 85px;
    padding: 30px;
    border-radius: 10px;
    color: rgba(13, 19, 33, 0.7);
    
+}
+#card-headline h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 1);
+    text-align: center;
+}
+#card-headline p{
+    text-align: center;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-right: 150px;  
 }
 
