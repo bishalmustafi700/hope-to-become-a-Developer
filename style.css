@@ -139,4 +139,23 @@
     margin-left: 150px;
     margin-right: 150px;  
 }
+.margin-top-heading{
+    margin-top: 100px;  
+}
+
+/* YOUTUBE LINKing */
+
+
+.youtube-video{
+  margin-top: 50px;
+  text-align: center;
+  background-color: #FAFAFB;
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid rgba(13, 19, 33, 0.2);
+}
+
+/* htmlCssJs card */
+
+
 
