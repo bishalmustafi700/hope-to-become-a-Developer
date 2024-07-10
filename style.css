@@ -136,7 +136,7 @@
     margin-right: 150px;  
 }
 .margin-top-heading{
-    margin-top: 100px;  
+    margin-top: 60px;  
 }
 
 /* YOUTUBE LINKing */
@@ -197,4 +197,105 @@
     font-size: 16px;
     font-weight: 300;
     color: #888888;
+}
+
+/* nodeMongo-section */
+
+
+.clm-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    border: 2px solid rgba(13, 19, 33, 0.15);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.clm-card-details h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D1321;
+}
+.clm-card-details a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D1321;
+}
+
+
+/* support-form */
+
+.support-form h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FAFAFB;
+}
+.support-form h3{
+    color: #FAFAFB;
+}
+.support-form p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.support-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background-image: url(./assets/handshake.jpg);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 50px;
+}
+input[type=text]{
+  width: 40%;
+  height: 20px;
+  padding: 10px 19px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: none;
+
+}
+input[type=button]{
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FAFAFB;
+    border-radius: 8px;
+    color: #0D1321;
+    border: none;
+}
+
+/* footer */
+
+.profile-icon{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+
+}
+.footer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 360px;
+    background-color: #0D132108;
+    padding: 20px 40px;
+    margin-top: 50px;
+    border-radius: 8px;
+    
+
+}
+.footer-flex div h3{
+    font-size: 20px;
+    font-weight: 600;
 }
